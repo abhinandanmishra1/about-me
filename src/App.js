@@ -1,8 +1,17 @@
 import "./App.css";
 import profile from "./assets/images/prof1.jpg";
+import MovingCircle from "./MovingCircle";
+
 function App() {
+	const skills = ["HTML", "CSS", "JavaScript", "React", "Angular"];
+	const skillColor = ["#FF5733", "#48C9B0", "#48C9B0", "#D35400", "#283747"];
 	return (
 		<div className="container">
+			<div className="skills">
+				{skills.map((skill, i) => {
+					return <MovingCircle skill={skill} color={skillColor[i]} />;
+				})}
+			</div>
 			<div className="about-me">
 				{/* Pic */}
 				<div className="pic">
