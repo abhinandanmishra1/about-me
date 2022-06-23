@@ -4,7 +4,7 @@ import MovingCircle from "./MovingCircle";
 
 function App() {
 	const skills = ["HTML", "CSS", "JavaScript", "React", "Angular"];
-	const skillColor = ["#FF5733", "#48C9B0", "#48C9B0", "#D35400", "#283747"];
+	const skillColor = ["#FF5733", "#48C9B0", "#A04000", "#F1C40F", "#283747"];
 	return (
 		<div className="container">
 			<div className="skills">
@@ -42,6 +42,12 @@ function App() {
 				<div className="work">
 					<p>Work</p>
 					<h6>Scaler Academy</h6>
+				</div>
+
+				<div className="skills">
+					{skills.map((skill, i) => {
+						return <MovingCircle skill={skill} color={skillColor[i]} />;
+					})}
 				</div>
 			</div>
 		</div>

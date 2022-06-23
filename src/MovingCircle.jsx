@@ -11,6 +11,7 @@ const MovingCircle = ({skill,color}) => {
       bottom: 100,
     }}
     className="ball"
+    style={{background: `radial-gradient(circle at 40px 40px, ${color}, #000)`}}
   >
     {skill}
     </motion.div>
