@@ -31,7 +31,7 @@ function App() {
 				{/* About Me */}
 				<div className="about">
 					<p>
-						I am a web developer and software developer currently working as an
+						I am a web developer and software developer currently working as a
 						SDE intern at Scaler Academy (Interviewbit).
 					</p>
 					<p>

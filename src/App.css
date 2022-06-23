@@ -169,7 +169,9 @@ body {
 	.about-me,
 	.skills {
 		width: 90%;
-		height: 96%;
+	}
+	.about-me {
+		height: 95%;
 	}
 	body {
 		font-size: 12px;
