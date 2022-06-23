@@ -136,6 +136,10 @@ body {
 		width: 60%;
 	}
 
+	.about-me {
+		height: 70vh;
+	}
+
 	.container > .skills {
 		display: none;
 	}
