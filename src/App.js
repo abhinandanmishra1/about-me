@@ -9,7 +9,9 @@ function App() {
 		<div className="container">
 			<div className="skills">
 				{skills.map((skill, i) => {
-					return <MovingCircle skill={skill} color={skillColor[i]} />;
+					return (
+						<MovingCircle skill={skill} color={skillColor[i]} isDrag={true} />
+					);
 				})}
 			</div>
 			<div className="about-me">
@@ -46,7 +48,13 @@ function App() {
 
 				<div className="skills">
 					{skills.map((skill, i) => {
-						return <MovingCircle skill={skill} color={skillColor[i]} />;
+						return (
+							<MovingCircle
+								skill={skill}
+								color={skillColor[i]}
+								isDrag={false}
+							/>
+						);
 					})}
 				</div>
 			</div>
