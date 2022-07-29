@@ -43,9 +43,7 @@ const Home = () => {
 					<p>
 						I like to do web development and create beautiful designs using css.
 					</p>
-					<p>I am open to freelance or part-time work in web development.</p>
 				</div>
-
 				{/* Work */}
 				<div className="work">
 					<p>Work</p>
