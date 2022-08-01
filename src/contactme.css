@@ -19,7 +19,7 @@
 	flex-direction: column;
 }
 
-a {
+li a {
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	font-size: 1.6rem;
 	padding: 0.5rem;

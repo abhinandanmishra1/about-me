@@ -49,18 +49,6 @@ const Home = () => {
 					<p>Work</p>
 					<h6>Scaler Academy</h6>
 				</div>
-
-				<div className="skills">
-					{skills.map((skill, i) => {
-						return (
-							<MovingCircle
-								skill={skill}
-								color={skillColor[i]}
-								isDrag={false}
-							/>
-						);
-					})}
-				</div>
 			</div>
 		</motion.div>
 	);
